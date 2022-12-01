@@ -1,0 +1,52 @@
+{
+  "name": "collanvas",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "husky install",
+    "dev": "set NODE_ENV=development && node server/index.mjs",
+    "build": "next build",
+    "start": "set NODE_ENV=production && node server/index.mjs",
+    "lint": "prettier . --write --ignore-path .gitignore"
+  },
+  "lint-staged": {
+    "./**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "prettier --write"
+    ]
+  },
+  "dependencies": {
+    "@faker-js/faker": "^7.4.0",
+    "@fortawesome/fontawesome-svg-core": "^6.1.2",
+    "@fortawesome/free-solid-svg-icons": "^6.1.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@node-redis/json": "^1.0.2",
+    "classnames": "^2.3.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "next": "^12.2.5",
+    "react": "^18.2.0",
+    "react-dom": "18.2.0",
+    "react-sizeme": "^3.0.2",
+    "react-use": "^17.4.0",
+    "redis": "^4.5.1",
+    "socket.io": "^4.5.1",
+    "socket.io-client": "^4.5.1"
+  },
+  "devDependencies": {
+    "@babel/helper-module-imports": "^7.18.6",
+    "@tailwindcss/forms": "^0.5.2",
+    "@types/node": "18.7.13",
+    "@types/react": "18.0.17",
+    "@types/react-dom": "18.0.6",
+    "autoprefixer": "^10.4.8",
+    "babel-plugin-macros": "^3.1.0",
+    "eslint": "8.22.0",
+    "eslint-config-next": "12.2.5",
+    "husky": "^8.0.1",
+    "postcss": "^8.4.16",
+    "prettier": "^2.7.1",
+    "prettier-plugin-tailwindcss": "^0.1.13",
+    "tailwindcss": "^3.1.8",
+    "typescript": "4.7.4"
+  }
+}
