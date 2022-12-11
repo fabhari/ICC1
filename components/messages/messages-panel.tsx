@@ -78,7 +78,7 @@ const MessagesPanel = ({
 
   return (
     <div className="mx-4 h-full">
-      <h2 className="relative z-10 bg-white py-3 font-bold">Chat</h2>
+      <h2 className="relative z-10 bg-white py-3 font-bold">Group Chat</h2>
 
       {isLoading ? (
         <div className="pointer-events-none absolute inset-0 grid place-items-center">

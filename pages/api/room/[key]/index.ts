@@ -12,9 +12,9 @@ const handler = async (req: NextApiRequest, res: NextApiResponse<null>) => {
     if (!messages) 
     {
      let data = {
-        name : 'hariharan',
+        name : 'ICCGroup33',
         colour : '#FF0000',
-        content : 'Fabhari'
+        content : 'ICCAssignment'
       }
 
       let canvas = {
