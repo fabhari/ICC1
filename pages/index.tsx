@@ -80,15 +80,12 @@ const Home = ({
   return (
     <div className="mx-auto w-fit">
       <Head>
-        <title>LETS FUCK Collanvas</title>
+        <title>ICC GROUP</title>
       </Head>
       <header className="ml-4">
-        <h1 className="mt-16 -ml-1 text-[4rem] font-black uppercase text-white xl:-ml-2 xl:text-[7rem]">
-         DAMN FUCKING  Collanvas
+        <h1 className="mt-16 -ml-1 text-[4rem]   xl:-ml-2 xl:text-[7rem]">
+         ICC GROUP 17
         </h1>
-        <p className="-mt-6 text-lg text-white xl:-mt-8 xl:text-2xl">
-          Your whole team, changing the world one stroke at a time.
-        </p>
       </header>
 
       <main className="mx-auto mt-20 w-fit max-w-lg">
@@ -120,7 +117,7 @@ const Home = ({
             >
               Username...
             </JoinInput>
-            <label
+            {/* <label
               className="relative aspect-square w-14 shrink-0 grow-0 rounded-md border-2 border-white ring-2 ring-primary-200"
               style={{ backgroundColor: userColor }}
             >
@@ -130,13 +127,13 @@ const Home = ({
                 value={userColor}
                 onChange={(event) => setUserColor(event.target.value)}
               />
-            </label>
+            </label> */}
           </fieldset>
           <button
             type="submit"
-            className="btn rounded-md bg-white/10 py-2 text-xl font-bold uppercase text-white active:bg-white/5"
+            className="btn rounded-md bg-white/10 py-2 text-xl active:bg-white/5"
           >
-            Join or create a Collanvas
+            Join / Create Whiteboard
           </button>
         </form>
 

@@ -4,13 +4,14 @@ type AppIconProps = {
 
 const AppIcon = ({ size }: AppIconProps) => {
   return (
-    <svg
-      width={size}
-      viewBox="0 0 166 54"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <title>Collanvas, powered by Redis</title>
+    // <svg
+    //   width={size}
+    //   viewBox="0 0 166 54"
+    //   fill="none"
+    //   xmlns="http://www.w3.org/2000/svg"
+    // >
+      <div>
+      <title>ICC</title>
       <g filter="url(#filter0_i_6_49)">
         <rect
           x="26.132"
@@ -180,7 +181,7 @@ const AppIcon = ({ size }: AppIconProps) => {
           />
         </clipPath>
       </defs>
-    </svg>
+      </div>
   )
 }
 

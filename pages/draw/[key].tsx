@@ -59,7 +59,7 @@ const Draw: NextPage = () => {
       <Head>
         <title>Collanvas - {roomKey}</title>
       </Head>
-      <header className="flex h-fit items-center justify-between py-4 px-4">
+      <header className="flex h-fit py-4 px-4">
         <Link href="/">
           <a href="">
             <AppIcon size={120} />
