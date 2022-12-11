@@ -80,11 +80,11 @@ const Home = ({
   return (
     <div className="mx-auto w-fit">
       <Head>
-        <title>ICC GROUP</title>
+        <title>Many Campaigns</title>
       </Head>
       <header className="ml-4">
         <h1 className="mt-16 -ml-1 text-[4rem]   xl:-ml-2 xl:text-[7rem]">
-         ICC GROUP 17
+         Many Campaigns
         </h1>
       </header>
 
