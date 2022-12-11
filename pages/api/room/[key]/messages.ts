@@ -22,12 +22,12 @@ const handler = async (
 
 
   let responseObj =  {
-    username: 'hariharan',
+    username: "Let's Chat",
     color: '#FF0000',
-    content: 'Fabhari'
+    content: ''
   } 
   let genders = new Array<Message>();
-  genders.push(responseObj)
+  //genders.push(responseObj)
   
 
   // console.log(response)
